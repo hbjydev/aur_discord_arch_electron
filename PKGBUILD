@@ -2,11 +2,12 @@
 # Contributor: Thaodan <AUR+me@thaodan.de>
 # Contributor: huyizheng
 # Contributor: johnnyapol <arch@johnnyapol.me>
+# Contributor: Hayden <hayden@hbjy.dev>
 # Based off the discord community repo PKGBUILD by Filipe Laíns (FFY00) <lains@archlinux.org>
 _pkgname=discord
 _electron=electron
 pkgname=${_pkgname}_arch_electron
-pkgver=0.0.27
+pkgver=0.0.28
 pkgrel=1
 pkgdesc="Discord (popular voice + video app) using the system provided electron for increased security and performance"
 arch=('x86_64')
@@ -23,7 +24,7 @@ source=("https://dl.discordapp.net/apps/linux/$pkgver/$_pkgname-$pkgver.tar.gz"
         'discord-launcher.sh'
         'LICENSE.html::https://discord.com/terms'
         'OSS-LICENSES.html::https://discord.com/licenses')
-sha512sums=('285a0119b4740402a3fa94d3679a52bc8d883413ee32187e90087960a4d34aaf316788d2708bbccafe3f995c2b99767b45bc4b7c731704ef887a8de1b3d3926f'
+sha512sums=('763fe47a0fb21a13e852bcc818d4e0e2ea4faf23fcfdc02fddfe06e8c829499e028e27b45d807d3b3edcc36788990f3f21c0460b9b8efc538b62f3b41aeb744d'
             '6ca6dfbfb65bf4fec34aac4676f66bb602b5c4c3318fcc96236056d632c0c9af3c4eb775b491c2e722ed5de6a4c253677d6ee1a7be69e13045702fa3df8cf52f'
             SKIP
             SKIP)
